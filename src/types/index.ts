@@ -1,12 +1,18 @@
 export interface Project {
   id: string;
   title: string;
+  subtitle?: string;
   description: string;
-  status: string;
+  detailedDescription?: string;
+  category: "professional" | "experimental";
+  status: "Active" | "In Development" | "Prototype" | "Completed";
   version: string;
-  engine: string;
-  dice_system?: string;
   tags: string[];
+  engine?: string;
+  dice_system?: string;
+  githubUrl?: string;
+  liveUrl?: string;
+  gallery?: string[];
 }
 
 export interface Architect {
@@ -16,5 +22,4 @@ export interface Architect {
   bio: string;
   github?: string;
   linkedin?: string;
-  avatar_url?: string;
 }
