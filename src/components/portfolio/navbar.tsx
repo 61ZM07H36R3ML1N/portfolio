@@ -1,23 +1,30 @@
 import Link from "next/link";
 
-export function Navbar() {
+export default function Navbar() {
   return (
-    <nav className="sticky top-0 z-50 w-full border-b border-zinc-900 bg-black/80 backdrop-blur-md">
-      <div className="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
-        <Link href="/" className="group flex items-center gap-2">
-          <div className="h-3.5 w-3.5 bg-blue-600 rounded-sm group-hover:rotate-45 transition-transform duration-300" />
-          <span className="text-lg font-black tracking-tighter uppercase text-white">
-            JB LABS<span className="text-blue-600">.</span>
-          </span>
+    <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-black/80 backdrop-blur-md">
+      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
+        {/* Brand */}
+        <Link href="/" className="font-black tracking-widest text-white text-xl">
+          JB <span className="text-blue-500">LABS</span>
         </Link>
-        
-        <div className="flex items-center gap-x-12 text-[10px] font-bold uppercase tracking-[0.25em] text-zinc-500">
-          <Link href="/about" className="hover:text-white transition-colors">About</Link>
-          <Link href="/projects/professional" className="hover:text-white transition-colors">Enterprise</Link>
-          <Link href="/projects/experimental" className="hover:text-white transition-colors">Experimental</Link>
-          <Link href="/contact" className="hover:text-white transition-colors">Contact</Link>
-        </div>
+
+        {/* Unified, perfectly-spaced links */}
+        <nav className="flex items-center gap-x-10 text-sm font-semibold text-zinc-400">
+          <Link href="/projects/professional" className="transition hover:text-blue-500">
+            Enterprise
+          </Link>
+          <Link href="/projects/experimental" className="transition hover:text-purple-500">
+            Experimental
+          </Link>
+          <Link href="/about" className="transition hover:text-white">
+            About
+          </Link>
+          <Link href="/contact" className="transition hover:text-white">
+            Contact
+          </Link>
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 }

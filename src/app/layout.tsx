@@ -1,5 +1,5 @@
-import { Navbar } from "src/components/portfolio/navbar.tsx";
-import "@/app/globals.css"; // Ensure your Tailwind v4/v3 entry is imported
+import Navbar from "@/components/portfolio/navbar";
+import "./globals.css"; // Ensure your Tailwind v4/v3 entry is imported
 
 export const metadata = {
   title: "JB Labs | Custom Software & Tabletop Toolkits",
