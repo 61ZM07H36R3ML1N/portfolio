@@ -3,6 +3,9 @@ export interface Project {
   title: string;
   subtitle?: string;
   description: string;
+  techStack: string[];
+  collaborators: string[];
+  roles: Record<string, string>;
   detailedDescription?: string;
   category: "professional" | "experimental";
   status: "Active" | "In Development" | "Prototype" | "Completed";
