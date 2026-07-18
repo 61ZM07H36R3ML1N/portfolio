@@ -10,7 +10,7 @@ export default function AboutPage() {
     {
       name: "Brian \"Grem\" Jamiel",
       role: "Lead Developer & Database Architect",
-      bio: "Focuses on system structural integrity, real-time sync architectures, robust Firestore integrations, and mathematical engines (such as the custom Roll-Under Blackjack mechanics powering Astro Inferno). Grem translates design vision into high-performance, bulletproof codebases.",
+      bio: "Focuses on system structural integrity, real-time sync architectures, robust Firestore integrations, and mathematical engines (such as the custom Roll-Under Blackjack mechanics powering Astro Inferno). Brian translates design vision into high-performance, bulletproof codebases.",
       track: "Enterprise & Systems",
       color: "text-blue-500",
       borderColor: "border-blue-500/20",
@@ -19,7 +19,7 @@ export default function AboutPage() {
     },
     {
       name: "RJ",
-      role: "Co-Developer & Game Systems Designer",
+      role: "Co-Developer & Co-Founder",
       bio: "Focuses on high-impact visual design, user flow optimization, creative gameplay systems, and deep world building. RJ crafts the tactical interfaces, mobile layout structures, and narrative elements that make our experimental projects immersive.",
       track: "Design & Narrative",
       color: "text-purple-500",
@@ -42,7 +42,7 @@ export default function AboutPage() {
             THE <span className="text-blue-500">ARCHITECTS</span>
           </h1>
           <p className="mt-6 text-zinc-400 leading-relaxed text-lg">
-            JB Labs is a collaborative engineering lab operated by Brian and RJ. Together, we build production-grade professional utilities and gritty, complex gaming systems.
+            JB Labs is a collaborative engineering lab operated by Brian and RJ. Together, we build production-grade professional utilities, complex gaming systems.
           </p>
         </header>
 

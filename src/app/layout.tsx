@@ -3,7 +3,7 @@ import "./globals.css"; // Ensure your Tailwind v4/v3 entry is imported
 
 export const metadata = {
   title: "JB Labs | Custom Software & Tabletop Toolkits",
-  description: "The collaborative dev portfolio of Grem and RJ.",
+  description: "The collaborative dev portfolio of Brian and RJ.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
               © 2026 JB Labs // System Status: Active
             </span>
             <span className="text-[10px] font-mono text-zinc-600 tracking-widest uppercase">
-              Built by Grem & RJ
+              Built by Brian & RJ
             </span>
           </div>
         </footer>
